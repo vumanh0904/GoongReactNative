@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.goongexamplemap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/macos/.gradle/caches/transforms-3/fa0c7f08842096e9721c5444b74bcf18/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/macos/.gradle/caches/transforms-3/fa0c7f08842096e9721c5444b74bcf18/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[:rnmapbox_maps] /Users/macos/Documents/goong-sample-reactnative/node_modules/@rnmapbox/maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+14-->[:rnmapbox_maps] /Users/macos/Documents/goong-sample-reactnative/node_modules/@rnmapbox/maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->[:rnmapbox_maps] /Users/macos/Documents/goong-sample-reactnative/node_modules/@rnmapbox/maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+15-->[:rnmapbox_maps] /Users/macos/Documents/goong-sample-reactnative/node_modules/@rnmapbox/maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+16
+17    <uses-feature
+17-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:10:5-12:35
+18        android:glEsVersion="0x00020000"
+18-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:11:9-41
+19        android:required="true" />
+19-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:12:9-32
+20    <uses-feature
+20-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.wifi"
+21-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:14:9-45
+22        android:required="false" />
+22-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:18:5-79
+24-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:18:22-76
+25
+26    <application
+26-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:5:5-24:19
+27        android:name="com.goongexamplemap.MainApplication"
+27-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:6:7-38
+28        android:allowBackup="false"
+28-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /Users/macos/.gradle/caches/transforms-3/603a8f571550d3ac369c9ebef41901c5/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:8:7-41
+32        android:label="@string/app_name"
+32-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:7:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:9:7-52
+34        android:theme="@style/AppTheme"
+34-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:11:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/debug/AndroidManifest.xml:8:9-44
+36        <activity
+36-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/debug/AndroidManifest.xml:11:9-111
+37            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+37-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/debug/AndroidManifest.xml:11:19-83
+38            android:exported="false" />
+38-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/debug/AndroidManifest.xml:11:84-108
+39        <activity
+39-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:12:7-23:18
+40            android:name="com.goongexamplemap.MainActivity"
+40-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:13:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+41-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:15:9-118
+42            android:exported="true"
+42-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:18:9-32
+43            android:label="@string/app_name"
+43-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:14:9-41
+44            android:launchMode="singleTask"
+44-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:16:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:17:9-51
+46            <intent-filter>
+46-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:19:9-22:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:20:13-65
+47-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:20:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:21:13-73
+49-->/Users/macos/Documents/goong-sample-reactnative/android/app/src/main/AndroidManifest.xml:21:23-70
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+55            android:authorities="com.goongexamplemap.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/macos/.gradle/caches/transforms-3/67a6decdd90a9217338499dba25f0373/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macos/.gradle/caches/transforms-3/c74f98d8892796388e900cee4ebe8358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macos/.gradle/caches/transforms-3/c74f98d8892796388e900cee4ebe8358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macos/.gradle/caches/transforms-3/c74f98d8892796388e900cee4ebe8358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+63            <meta-data
+63-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:27:13-29:52
+64                android:name="com.mapbox.maps.loader.MapboxMapsInitializer"
+64-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:28:17-76
+65                android:value="androidx.startup" /> <!-- This entry makes MapboxSDKCommonInitializer discoverable. -->
+65-->[com.mapbox.maps:android-core:10.17.0] /Users/macos/.gradle/caches/transforms-3/b5bf2db753b4fca002f9cbf999ba94a3/transformed/jetified-android-core-10.17.0/AndroidManifest.xml:29:17-49
+66            <meta-data
+66-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:21:13-23:52
+67                android:name="com.mapbox.common.MapboxSDKCommonInitializer"
+67-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:22:17-76
+68                android:value="androidx.startup" />
+68-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:23:17-49
+69        </provider>
+70
+71        <receiver
+71-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:26:9-33:20
+72            android:name="com.mapbox.common.location.LocationUpdatesReceiver"
+72-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:27:13-78
+73            android:enabled="true"
+73-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:28:13-35
+74            android:exported="false" >
+74-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:29:13-37
+75            <intent-filter>
+75-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:30:13-32:29
+76                <action android:name="com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES" />
+76-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:31:17-125
+76-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:31:25-122
+77            </intent-filter>
+78        </receiver>
+79
+80        <service
+80-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:35:9-37:40
+81            android:name="com.mapbox.common.LifecycleService"
+81-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:36:13-62
+82            android:exported="false" />
+82-->[com.mapbox.common:common:23.9.2] /Users/macos/.gradle/caches/transforms-3/c4adf37be476cd7b9327b42bdd31aa1b/transformed/jetified-common-23.9.2/AndroidManifest.xml:37:13-37
+83    </application>
+84
+85</manifest>
